@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navy Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="circle_image .png" />
+</head>
+<body data-theme="light">
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">
+                <img src="logo.png" alt="Hasibur Rahman logo" />
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle navigation">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+            <a href="#contact" class="btn btn-cta">Contact Me</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <h1>Hi, I am Hasibur Rahman</h1>
+                    <p class="hero-subtitle">A high level programmer crafting modern, clean and professional digital experiences.</p>
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-illustration">
+                        <img src="profil.png" alt="Hasibur Rahman" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p>আমি Hasibur Rahman, একজন হাই লেভেল প্রোগ্রামার। আধুনিক, ক্লিন ও প্রফেশনাল ওয়েব এক্সপেরিয়েন্স তৈরি করতে কাজ করি।</p>
+                </div>
+                <div class="about-inner">
+                    <div class="about-text">
+                        <p>স্কেলেবল, সিকিউর ও ভিজুয়ালি এপিলিং ওয়েব অ্যাপ্লিকেশন তৈরি করা আমার ফোকাস। ক্লিন কোড, মডার্ন টুলস আর ইউজার-ফ্রেন্ডলি ডিজাইন নিয়ে কাজ করতে ভালোবাসি।</p>
+                        <div class="about-highlights">
+                            <div class="about-item">
+                                <span class="about-icon"><i class="fa-solid fa-code"></i></span>
+                                <div>
+                                    <h3>Clean Code</h3>
+                                    <p>Writing maintainable, organized and well-structured code.</p>
+                                </div>
+                            </div>
+                            <div class="about-item">
+                                <span class="about-icon"><i class="fa-solid fa-palette"></i></span>
+                                <div>
+                                    <h3>Modern Design</h3>
+                                    <p>Balancing aesthetics with usability for a premium feel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-photo">
+                        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Portrait of Hasibur Rahman, high level programmer" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Services</h2>
+                    <p>What I can help you with.</p>
+                </div>
+                <div class="card-grid">
+                    <div class="card service-card">
+                        <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Responsive, fast and secure websites tailored to your needs.</p>
+                    </div>
+                    <div class="card service-card">
+                        <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Clean layouts that focus on readability and smooth user flows.</p>
+                    </div>
+                    <div class="card service-card">
+                        <div class="card-icon"><i class="fa-solid fa-gear"></i></div>
+                        <h3>Maintenance</h3>
+                        <p>Ongoing support, updates and improvements for your projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Portfolio</h2>
+                    <p>Selected projects that showcase my work.</p>
+                </div>
+                <div class="card-grid">
+                    <div class="card project-card">
+                        <h3>Project One</h3>
+                        <p>Short description of the project and the value it delivered.</p>
+                        <a href="#" class="btn btn-dark">View Details</a>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Project Two</h3>
+                        <p>Short description of the project and the value it delivered.</p>
+                        <a href="#" class="btn btn-dark">View Details</a>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Project Three</h3>
+                        <p>Short description of the project and the value it delivered.</p>
+                        <a href="#" class="btn btn-dark">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Testimonials</h2>
+                    <p>What clients say.</p>
+                </div>
+                <div class="card-grid">
+                    <div class="card testimonial-card">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p>"Amazing experience. Professional, responsive and delivered a high quality website."</p>
+                        <h3>Client Name</h3>
+                        <span>Position / Company</span>
+                    </div>
+                    <div class="card testimonial-card">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p>"Great attention to detail and a strong sense of modern design aesthetics."</p>
+                        <h3>Client Name</h3>
+                        <span>Position / Company</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-inner">
+                <div class="section-header">
+                    <h2>Contact</h2>
+                    <p>ঠিকানা: বাংলাদেশ, ঢাকা ১২১২, গুলশান ২, সাইদ নগর পানির পাম্প।</p>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/mdkweyvk" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+                <div class="contact-extra">
+                    <div class="map-embed">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d804.9288887829497!2d90.43754740250172!3d23.79544506238037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1764748714751!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="contact-links">
+                        <h3>অনলাইন কনট্যাক্ট</h3>
+                        <div class="contact-links-row">
+                            <div class="contact-links-list">
+                                <a href="mailto:you@example.com" class="contact-link email"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+                                <a href="http://Wa.me/+8801872625832" class="contact-link whatsapp"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+                                <a href="#" class="contact-link imo"><i class="fa-solid fa-comment-dots"></i><span>imo</span></a>
+                                <a href="https://canary.discord.com/channels/1445706862828847116/1445706863428767767" class="contact-link discord"><i class="fa-brands fa-discord"></i><span>Discord</span></a>
+                                <a href="https://www.youtube.com/@hasiburrahman18-o6p" class="contact-link youtube"><i class="fa-brands fa-youtube"></i><span>YouTube</span></a>
+                            </div>
+                            <div class="contact-video">
+                                <video src="video.mp4" controls></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/animeandmang" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/hasibur-rahman-b50048391/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/md-hasibur-rahman" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        (function () {
+            const storageKey = 'site-theme';
+            const themeToggle = document.getElementById('theme-toggle');
+            const menuToggle = document.getElementById('menu-toggle');
+            const nav = document.querySelector('.nav');
+            const body = document.body;
+
+            if (themeToggle) {
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const saved = localStorage.getItem(storageKey);
+                const initialTheme = saved || (prefersDark ? 'dark' : 'light');
+
+                function applyTheme(theme) {
+                    document.body.setAttribute('data-theme', theme);
+                    if (theme === 'dark') {
+                        themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+                    } else {
+                        themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+                    }
+                }
+
+                applyTheme(initialTheme);
+
+                themeToggle.addEventListener('click', function () {
+                    const current = document.body.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+                    const next = current === 'dark' ? 'light' : 'dark';
+                    applyTheme(next);
+                    try {
+                        localStorage.setItem(storageKey, next);
+                    } catch (e) {
+                        // ignore storage errors
+                    }
+                });
+            }
+
+            if (menuToggle && nav) {
+                menuToggle.addEventListener('click', function () {
+                    body.classList.toggle('nav-open');
+                });
+
+                nav.addEventListener('click', function (event) {
+                    const target = event.target;
+                    if (target.tagName === 'A') {
+                        body.classList.remove('nav-open');
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
